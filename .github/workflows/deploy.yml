@@ -37,10 +37,12 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./MyFirstReactApp
 
       - name: Build the React app
         run: npm run build
-
+        working-directory: ./MyFirstReactApp
+  
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v4
 
