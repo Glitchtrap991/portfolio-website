@@ -1,4 +1,5 @@
 import React from 'react';
+import Certificate from './Certificate';
 
 const certs = [{
         id: "1",
