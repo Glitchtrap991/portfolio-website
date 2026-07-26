@@ -86,7 +86,7 @@ export default function Certifications() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-auto">
                     {certs.map((cert) => (
-                        <ProjectCard 
+                        <Certificate 
                         key={cert.id}
                         title={cert.title}
                         issuer={cert.issuer}
