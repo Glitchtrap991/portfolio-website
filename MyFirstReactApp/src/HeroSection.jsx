@@ -48,7 +48,7 @@ export default function ProfileCard() {
 
       {/* Command Stack Pills */}
       <div className="mb-6 flex flex-wrap gap-1.5 font-mono text-[10px]">
-        {['[PYTHON]','[AI ML]','[DEEP LEARNING]','[REACT]', '[NODE.JS]', '[MONGO]'].map((tag) => (
+        {['[PYTHON]','[AI ML]','[DEEP LEARNING]','[GEN AI]','[AGENTIC AI]','[REACT]', '[NODE.JS]', '[MONGO]'].map((tag) => (
           <span key={tag} className="rounded border border-emerald-500/20 text-sm bg-emerald-950/20 px-2 py-1 text-emerald-300/80 transition-colors group-hover:border-emerald-500/40 group-hover:text-emerald-300">
             {tag}
           </span>
