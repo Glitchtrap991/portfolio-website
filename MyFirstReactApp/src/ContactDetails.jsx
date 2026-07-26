@@ -11,7 +11,7 @@ const contactEndpoints = [
   },
   {
     protocol: "LINKEDIN // PROFILE",
-    command: "$ ping linkedin.com/in/lijo-felix",
+    command: "$ ping linkedin.com/in/aparajith-venkatesh",
     href: "https://linkedin.com/in/aparajith-venkatesh",
     status: "PROFESSIONAL_NETWORK",
   },
