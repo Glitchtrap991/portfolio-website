@@ -17,7 +17,7 @@ export default function certificate({ title, issuer, image, credentialId}){
                         {issuer}
                     </div>
                 </div>
-                <span className="">&gt; cred_id : {credentialId}</span>{credentialId}
+                <span className="">&gt; cred_id : {credentialId}</span>
             </div>
 
             {/*Certificate details*/}
