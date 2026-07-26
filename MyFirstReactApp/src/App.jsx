@@ -6,6 +6,7 @@ import Footer from './Footer';
 import ProjectDetails from "./ProjectDetails";
 import StackPage from "./StackPage";
 import ContactDetails from "./ContactDetails";
+import { Certificate } from 'node:crypto';
 export default function App() {
   return (
     /* The core layout engine: min-h-screen + flex-col keeps the footer at the bottom */
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="/projects" element={<ProjectDetails />} />
           <Route path="/stack" element={<StackPage />} />
           <Route path="/contact" element={<ContactDetails />} />
+          <Route path="/certs" element={<Certifications/>}/>
           <Route path="*" element={
             <div className="text-center font-mono py-20 text-red-500 font-bold">
               &gt; ERROR: 404 // ROUTE_NOT_FOUND

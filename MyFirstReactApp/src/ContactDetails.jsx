@@ -1,7 +1,7 @@
 import React from 'react';
 
 // 1. YOUR DIRECT CONTACT ENDPOINTS
-// Just swap these out with your actual details!
+
 const contactEndpoints = [
   {
     protocol: "EMAIL // SMTP",
