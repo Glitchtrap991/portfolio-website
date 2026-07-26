@@ -29,6 +29,11 @@ export default function Navbar() {
               <span className="text-emerald-600/60">./</span>stack
             </Link>
           </li>
+          <li>
+            <Link to="/certs" className="text-slate-400 text-xl transition-all hover:text-emerald-400 hover:drop-shadow-[0_0_8px_rgba(52,211,153,0.5)]">
+              <span className="text-emerald-600/60">./</span>certs
+            </Link>
+          </li>
         </ul>
 
         {/* System Security / Network Badge */}

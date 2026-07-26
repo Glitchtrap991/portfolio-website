@@ -1,9 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite' // <-- Must be imported
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  // ADD THIS LINE: It must be exactly your GitHub repo name surrounded by slashes
-  base: "./", 
+  plugins: [
+    react(), 
+    tailwindcss() // <-- Must be included here!
+  ],
+  base: './',
 })

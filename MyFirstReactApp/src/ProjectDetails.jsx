@@ -72,7 +72,7 @@ export default function ProjectsPage() {
       
       {/* Directory Header */}
       <div className="mb-10 border-b border-emerald-500/20 pb-6">
-        <p className="text-xs text-emerald-400 mb-1">&gt; cd /root/portfolio/projects &amp;&amp; ls -la</p>
+        <p className="text-s text-emerald-400 mb-1">&gt; cd /root/portfolio/projects &amp;&amp; ls -la</p>
         <h1 className="text-3xl font-black text-white tracking-tight">
           System Repositories <span className="text-emerald-500 font-normal text-lg">({projectsData.length})</span>
         </h1>

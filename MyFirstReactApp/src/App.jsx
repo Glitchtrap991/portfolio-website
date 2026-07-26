@@ -5,6 +5,7 @@ import HeroSection from './HeroSection';
 import Footer from './Footer';
 import ProjectDetails from "./ProjectDetails";
 import StackPage from "./StackPage";
+import Certifications from "./Certifications";
 import ContactDetails from "./ContactDetails";
 import { Certificate } from 'node:crypto';
 export default function App() {
@@ -25,7 +26,6 @@ export default function App() {
                   Select Your Profile Node
                 </h1>
               </div>
-              {/* Your custom interactive card lives here */}
               <HeroSection />
             </div>
           }
@@ -33,7 +33,7 @@ export default function App() {
           <Route path="/projects" element={<ProjectDetails />} />
           <Route path="/stack" element={<StackPage />} />
           <Route path="/contact" element={<ContactDetails />} />
-          <Route path="/certs" element={<Certifications/>}/>
+          <Route path="/certs" element={<Certifications />}/>
           <Route path="*" element={
             <div className="text-center font-mono py-20 text-red-500 font-bold">
               &gt; ERROR: 404 // ROUTE_NOT_FOUND
