@@ -54,7 +54,7 @@ const certs = [{
         id: "8",
         title: "Agentic AI in Action: RAG with LangChain",
         issuer: "Infosys Springboard",
-        image: "./certs/Agentic AI in Action: RAG with LangChain Infosys.jpg",
+        image: "./certs/Agentic AI in Action RAG with LangChain Infosys.jpg",
         credentialId: ""
     },
     {

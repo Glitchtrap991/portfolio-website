@@ -8,7 +8,7 @@ export default function certificate({ title, issuer, image, credentialId}){
             {/*Thumbnail preview*/}
 
             <div>
-                <div className="relative h-48 w-full overflow-hidden bg-slate-950">
+                <div className="relative h-auto w-full overflow-hidden bg-slate-950">
                     <img src={image} 
                     alt={title} 
                     className="h-full w-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
